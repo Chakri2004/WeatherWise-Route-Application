@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WeatherWise Route</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h2>WeatherWise Route</h2>
+  <div class="controls">
+    <input type="text" id="source" placeholder="Source location" />
+    <input type="text" id="destination" placeholder="Destination location" />
+    <button onclick="getRoutes()">Find Routes</button>
+  </div>
+  <div id="map"></div>
+  <div class="content">
+    <div id="routes"></div>
+    <div id="best-route">
+      <h3>Best Route</h3>
+      <div id="best-route-details">
+        Best route will appear here
+      </div>
+    </div>
+  </div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtB5HA7vVSDFzjst-MzydmbK9tF7BIMac"></script>
+  <script src="app.js"></script>
+</body>
+</html>

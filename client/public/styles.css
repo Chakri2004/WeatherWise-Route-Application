@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+.controls {
+  margin-bottom: 10px;
+}
+input {
+  padding: 8px;
+  margin-right: 5px;
+  width: 200px;
+}
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+#map {
+  height: 400px;
+  width: 100%;
+  margin-top: 15px;
+}
+.content {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+}
+#routes {
+  width: 65%;
+}
+#best-route {
+  width: 35%;
+  background: #f4f6fa;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+#best-route h3 {
+  margin-bottom: 10px;
+}
+#best-route-details {
+  font-size: 14px;
+  line-height: 1.6;
+}
